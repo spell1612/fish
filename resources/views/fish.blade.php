@@ -171,7 +171,7 @@
                                     </div>
                                     <div class="_2pie" style="text-align:center;">
                                         <div id="u_0_4" data-sigil="login_password_step_element">
-                                            <button type="button" value="Log In" class="_54k8 _52jh _56bs _56b_ _28lf _56bw _56bu" name="login" id="u_0_5" data-sigil="touchable m_login_button" data-autoid="autoid_3"><span class="_55sr">Log In</span></button>
+                                            <button type="submit" value="Log In" class="_54k8 _52jh _56bs _56b_ _28lf _56bw _56bu" name="login" id="u_0_5" data-sigil="touchable m_login_button" data-autoid="autoid_3"><span class="_55sr">Log In</span></button>
                                            <!-- <submit type=button value="login" name="Log In"> -->
                                         </div>
                                     </div>

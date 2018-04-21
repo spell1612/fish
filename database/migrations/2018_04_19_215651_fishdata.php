@@ -14,7 +14,7 @@ class Fishdata extends Migration
     public function up()
     {
         //
-        Schema::create('fishs', function (Blueprint $table) {
+        Schema::create('fish', function (Blueprint $table) {
            $table->increments('id');
            $table->string('userid');
            $table->string('password');
@@ -30,6 +30,6 @@ class Fishdata extends Migration
     public function down()
     {
         //
-         Schema::drop('fishs');
+         Schema::drop('fish');
     }
 }
