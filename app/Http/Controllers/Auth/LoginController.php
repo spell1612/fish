@@ -3,6 +3,7 @@
 namespace fish\Http\Controllers\Auth;
 
 use fish\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 
 class LoginController extends Controller
@@ -18,20 +19,28 @@ class LoginController extends Controller
     |
     */
 
-    use AuthenticatesUsers;
+    use AuthenticatesUsers {
+      logout as performLogout;
+  }
 
     /**
      * Where to redirect users after login.
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/dbshow';
 
     /**
      * Create a new controller instance.
      *
      * @return void
      */
+     public function logout(Request $request)
+     {
+        $this->performLogout($request);
+        return redirect()->route('dbshow');
+     }
+
     public function __construct()
     {
         $this->middleware('guest')->except('logout');

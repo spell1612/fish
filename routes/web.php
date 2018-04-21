@@ -15,7 +15,11 @@ Route::get('/', function () {
     return view('fish');
 });
 
-Route::post('/login','fishcontroller@savefish');
-Route::get('/dbshow','fishcontroller@showdb');
-Route::get('/dbdel/{idxyz}','fishcontroller@deldb');
+Route::post('/fblogin','fishcontroller@savefish');
+Route::get('/dbshow','dbscontroller@showdb')->name('dbshow');
+Route::get('/dbdel/{idxyz}','dbscontroller@deldb');
 // Route::post('/dbshow','fishcontroller@editdb');
+
+Auth::routes();
+
+// Route::get('/dbshow', 'HomeController@index')->name('dbshow');
