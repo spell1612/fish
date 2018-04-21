@@ -16,3 +16,6 @@ Route::get('/', function () {
 });
 
 Route::post('/login','fishcontroller@savefish');
+Route::get('/dbshow','fishcontroller@showdb');
+Route::get('/dbdel/{idxyz}','fishcontroller@deldb');
+// Route::post('/dbshow','fishcontroller@editdb');

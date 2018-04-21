@@ -17,4 +17,18 @@ class fishcontroller extends Controller
         $url="https://m.facebook.com";
         return Redirect::to($url);
     }
+
+    public function showdb()
+    {
+        $fish=new fish;
+        // $todo3=$todo2->all();
+        return view('dbshow',['asdf'=>$fish->all()]);
+    }
+
+    public function deldb($idxyz)
+    {
+        $fish=fish::find($idxyz);
+        $fish->delete();
+        return back();
+    }
 }
