@@ -3,7 +3,7 @@
 ### Inspired by https://github.com/Rohitms/easyphishfb
 ### Requirements
 * [Composer](https://getcomposer.org/download/)
-* A VM environment like 'homestead' to host it on (I ended up used [xampp](https://www.apachefriends.org/index.html) cause of homestead's stupidly slow server download bandwidth)
+* A VM environment like 'homestead' to host it on (I ended up using [xampp](https://www.apachefriends.org/index.html) cause of homestead's stupidly slow server download bandwidth)
 * [VC++ redist 2015](https://www.microsoft.com/en-in/download/details.aspx?id=48145)
 * A good Text Editor ([Atom](https://atom.io)/[VSCode](https://code.visualstudio.com)/[Sublime](https://www.sublimetext.com))
 
