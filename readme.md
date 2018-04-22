@@ -9,11 +9,8 @@
 
 
 ## Setting up a laravel project/app from github
-These are some general steps to setup a laravel project from git on your local environment
-I'll use my project as an example (be sure to setup git and the other requirements mentioned above on your local machine before hand)
-
-* clone from git using `$ git clone https://github.com/spell1612/todo.git <foldername>` (Foldername optional. Defaults to repo name)
-* cd into folder with `$ cd <foldername>` or `$ cd todo` by default
+* clone from git using `$ git clone https://github.com/spell1612/fish.git <foldername>` (Foldername optional. Defaults to repo name)
+* cd into folder with `$ cd <foldername>` or `$ cd fish` by default
 * create new env file by using `$ cp .env.example .env`
 * grab the dependancies with `$ composer update`
   - dependancies can be defined in the composer.json file
