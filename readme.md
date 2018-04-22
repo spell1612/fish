@@ -1,6 +1,6 @@
 # fish
 ### A basic phishing app implemented in laravel for spreading awareness on how easy it is.
-
+### Inspired by https://github.com/Rohitms/easyphishfb
 ### Requirements
 * [Composer](https://getcomposer.org/download/)
 * A VM environment like 'homestead' to host it on (I ended up used [xampp](https://www.apachefriends.org/index.html) cause of homestead's stupidly slow server download bandwidth)
