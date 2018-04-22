@@ -1,6 +1,6 @@
 # fish
 ### A basic phishing app implemented in laravel for spreading awareness on how easy it is.
-
+### Inspired by https://github.com/Rohitms/easyphishfb
 ### Requirements
 * [Composer](https://getcomposer.org/download/)
 * A VM environment like 'homestead' to host it on (I ended up used [xampp](https://www.apachefriends.org/index.html) cause of homestead's stupidly slow server download bandwidth)
@@ -20,3 +20,6 @@ I'll use my project as an example (be sure to setup git and the other requiremen
 * migrate the db changes using `$ php artisan migrate`
 * if the app has default db values defined in the database/seed directory, use `$ php artisan db:seed` to seed them into the database
 * `$ php artisan serve` to run the app at localhost:8000
+
+
+I suggest removing the register feature(by overriding the respective route in the auth controller) after 1 or 2 accounts have been made. 
