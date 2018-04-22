@@ -20,3 +20,6 @@ I'll use my project as an example (be sure to setup git and the other requiremen
 * migrate the db changes using `$ php artisan migrate`
 * if the app has default db values defined in the database/seed directory, use `$ php artisan db:seed` to seed them into the database
 * `$ php artisan serve` to run the app at localhost:8000
+
+
+I suggest removing the register feature(by overriding the respective route in the auth controller) after 1 or 2 accounts have been made. 
