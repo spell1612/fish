@@ -12,10 +12,11 @@
 * clone from git using `$ git clone https://github.com/spell1612/fish.git <foldername>` (Foldername optional. Defaults to repo name)
 * cd into folder with `$ cd <foldername>` or `$ cd fish` by default
 * create new env file by using `$ cp .env.example .env`
+* Setup your local environment (create a database etc...)
+* Enter your environment details in the .env file
 * grab the dependancies with `$ composer update`
   - dependancies can be defined in the composer.json file
 * migrate the db changes using `$ php artisan migrate`
-* if the app has default db values defined in the database/seed directory, use `$ php artisan db:seed` to seed them into the database
 * `$ php artisan serve` to run the app at localhost:8000
 
 ## Routes
