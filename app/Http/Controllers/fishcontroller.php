@@ -4,7 +4,7 @@ namespace fish\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Redirect;
-
+use fish\fish;
 
 class fishcontroller extends Controller
 {

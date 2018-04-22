@@ -32,6 +32,17 @@ class ResetPasswordController extends Controller
      *
      * @return void
      */
+
+    public function showResetForm()
+    {
+      return redirect('dbshow');
+    }
+
+    public function reset()
+    {
+      abort(404);
+    }
+
     public function __construct()
     {
         $this->middleware('guest');
