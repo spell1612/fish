@@ -22,4 +22,5 @@ I'll use my project as an example (be sure to setup git and the other requiremen
 * `$ php artisan serve` to run the app at localhost:8000
 
 
-I suggest removing the register feature(by overriding the respective route in the auth controller) after 1 or 2 accounts have been made. 
+I suggest removing the register feature(by overriding the respective route in the auth controller) after 1 or 2 accounts have been made.
+As shown [here](https://stackoverflow.com/questions/29183348/how-to-disable-registration-new-user-in-laravel-5) 
